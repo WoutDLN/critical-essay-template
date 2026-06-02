@@ -17,12 +17,13 @@ Lorem *Thripsum*.
 Lorem Foupsum.[^1]
 
 ## Analysis
-Lorem Fipsum [@doe2020; smith2021].
+Lorem Fipsum [@doe2020; @smith2021].
 
 ## Discussion
 Block quote:
 
-> Lorem Sipsum [@doe2020, 22].
+> Lorem Sipsum. 
+> [@doe2020, 22]
 
 ## Conclusion
 Lorem Sepsum.
