@@ -67,7 +67,6 @@ body {
 }
 
 
-
 /* ===== Links ===== */
 
 .markdown-body a {
@@ -118,6 +117,25 @@ body {
 .markdown-body li {
   margin: 0.4em 0;
 }
+
+/* Remove bullets completely */
+.markdown-body ul.task-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Ensure individual items don't restore bullets */
+.markdown-body li.task-list-item {
+  list-style: none;
+}
+
+.markdown-body input[type="checkbox"] {
+  accent-color: #7a0000; /* matches your link color */
+  transform: scale(1.1);
+  margin-top: 0.2em;
+}
+
 
 /* ===== Horizontal rules ===== */
 
