@@ -31,7 +31,7 @@ Or ordered lists:
 4. Cut a slice of lemon peel off the lemon.
 5. Squeeze the lemon oils out of the peel, into the tonic.
 6. Add the lemon peel to the glass.
-6. Enjoy!
+7. Enjoy!
 
 Just don't forget to add an empty line before starting your list! 
 
@@ -39,8 +39,8 @@ Just don't forget to add an empty line before starting your list!
 
 You can even use checkboxes, although it may be tricky to find a good use case for this:
 
-- [ ] item
-- [x] item
+- [x] check references
+- [ ] take a nap
 
 And you can include some inline `code`, or add a code block:
 ```
@@ -76,7 +76,7 @@ To quote sources, you can automatically generate in-text and full references you
 > [@doe2020, 25]
 
 ## Conclusion
-Neat, right?
+Neat, right? Don't forget to check out [CCAW](https://sslis.github.io/ccaw/) for some general academic writing tips.
 
 ## References
 
