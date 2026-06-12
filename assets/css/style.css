@@ -26,6 +26,34 @@ body {
   background: white;
 }
 
+/* ===== navbar ===== */
+
+.site-nav {
+  text-align: center;
+  margin: 1.5rem 0 0.5rem 0;
+  font-size: 0.9em;
+}
+
+.site-nav a {
+  color: #7a0000;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline dotted rgba(122, 0, 0, 0.4);
+  text-underline-offset: 3px;
+}
+
+.site-nav a.active {
+  font-weight: 700;
+  color: #000;
+  cursor: default;
+}
+
+.nav-sep {
+  margin: 0 0.5em;
+  color: #bbb;
+}
 
 /* ===== Headings ===== */
 

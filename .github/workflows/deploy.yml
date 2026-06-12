@@ -57,6 +57,7 @@ jobs:
             --metadata repo_name="${{ github.repository }}" \
             --metadata license_name="${{ steps.license.outputs.name }}" \
             --metadata license_url="${{ steps.license.outputs.url }}" \
+            --metadata is_essay=true
             --output=index.html
 
           # ===== HOWTO =====
@@ -80,6 +81,7 @@ jobs:
             --metadata repo_name="${{ github.repository }}" \
             --metadata license_name="${{ steps.license.outputs.name }}" \
             --metadata license_url="${{ steps.license.outputs.url }}" \
+            --metadata is_howto=true \
             --output=howto.html
 
       - name: Upload artifact

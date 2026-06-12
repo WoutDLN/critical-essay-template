@@ -15,7 +15,8 @@ preview:
 	--metadata last_updated_iso="$$LAST_ISO_ESSAY" \
 	--metadata year_first_published="$$FIRST_DISPLAY_ESSAY" \
 	--metadata first_published_iso="$$FIRST_ISO_ESSAY" \
-	--output=preview.html
+	--metadata is_essay=true \
+	--output=index.html
 
 	LAST_DISPLAY_HOWTO=$$(git log -1 --format=%cd --date=format:"%-d %B %Y" -- howto.md); \
 	LAST_ISO_HOWTO=$$(git log -1 --format=%cd --date=format:"%Y-%m-%d" -- howto.md); \
@@ -31,4 +32,5 @@ preview:
 	--metadata last_updated_iso="$$LAST_ISO_HOWTO" \
 	--metadata year_first_published="$$FIRST_DISPLAY_HOWTO" \
 	--metadata first_published_iso="$$FIRST_ISO_HOWTO" \
+	--metadata is_howto=true \
 	--output=howto.html
