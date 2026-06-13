@@ -29,7 +29,13 @@ body {
 /* ===== navbar ===== */
 
 .site-nav {
-  text-align: center;
+  font-family: "Special Elite", monospace;
+  font-size: 0.85em;
+  letter-spacing: 0.03em;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+
+  text-align: right;
   margin: 1.5rem 0 0.5rem 0;
   font-size: 0.9em;
 }
@@ -53,6 +59,8 @@ body {
 .nav-sep {
   margin: 0 0.5em;
   color: #bbb;
+  font-family: "Special Elite", monospace;
+  font-size: 0.85em;
 }
 
 /* ===== Headings ===== */
